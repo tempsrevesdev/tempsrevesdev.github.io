@@ -1,0 +1,71 @@
+@import "~bootstrap/scss/bootstrap";
+
+.header {
+  width: 100vw;
+  height: 12px;
+  background-color: #dc3545;
+  position: relative;
+  top: 0;
+}
+
+.header-line {
+  width: 100vw;
+  height: 1px;
+  background-color: #dc3545;
+  position: relative;
+  top: 2px;
+}
+
+.title-en {
+  color: #dc3545;
+  font-style: italic;
+  font-weight: bold;
+  position: relative;
+  top: 0;
+}
+
+.title-area {
+  text-align: center;
+  padding-bottom: 20px;
+  .logo {
+    width: 120px;
+    height: auto;
+    object-fit: contain;
+    object-position: 50% 50%;
+    position: relative;
+    margin: 0 auto;
+    top: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .title {
+    color: #dc3545;
+    font-weight: bold;
+  }
+}
+
+.form-sheet {
+  padding-bottom: 40px;
+}
+
+.description {
+  padding-top: 10px;
+  border-top: solid 1px $gray-500;
+  border-bottom: solid 1px $gray-500;
+  p {
+    font-size: 14px;
+  }
+}
+
+.footer {
+  width: 100vw;
+  height: 80px;
+  position: relative;
+  top: 0;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  text-align: center;
+  p {
+    text-align: center;
+  }
+}
